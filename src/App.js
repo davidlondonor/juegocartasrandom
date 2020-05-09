@@ -1,14 +1,25 @@
 import React from "react";
 import "./App.css";
 import Juego from "./components/Juego";
+import Instrucciones from "./components/instrucciones/Instruccioness"
+import Inicio from "./components/inicio/inicio"
+import SaladeJuego from "./components/salaDeJuego/SalaDeJuego"
 
 function App() {
     return (
-        <div className="App">
-            <header className="App-header">
-                <Juego />
-            </header>
-        </div>
+
+        <
+        div className="bigBox" >
+            <
+                Inicio />
+            <
+                Instrucciones />
+            <
+                SalaDeJuego />
+            <
+        /div>
+
+
     );
 }
 

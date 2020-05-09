@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+//componentes Hijos
+
 
 class SalaDeJuego extends Component {
     render() {
