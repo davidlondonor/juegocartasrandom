@@ -1,6 +1,6 @@
-import React from "react";
+import React, { Component } from "react";
 
-class SalaDeJuego extends ReactComponent {
+class SalaDeJuego extends Component {
     render() {
         return (
             <div>

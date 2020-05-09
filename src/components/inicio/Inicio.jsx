@@ -1,7 +1,7 @@
-import React from "react";
+import React, { Component } from "react";
 import inicio from "./inicio.css";
 
-class Inicio extends ReactComponent {
+class Inicio extends Component {
     render() {
         return (
             <div className="container">
@@ -9,6 +9,6 @@ class Inicio extends ReactComponent {
             </div>
         );
     }
-}
+} n
 
 export default Inicio;
